@@ -3,10 +3,10 @@
 # Data loading, audit, missingness, subset creation
 # ==========================================
 
-# ---- Packages ----
-pkgs <- c("tidyverse", "skimr", "naniar", "here")
-to_install <- pkgs[!pkgs %in% installed.packages()[, "Package"]]
-if (length(to_install) > 0) install.packages(to_install)
+# # ---- Packages ----
+# pkgs <- c("tidyverse", "skimr", "naniar", "here")
+# to_install <- pkgs[!pkgs %in% installed.packages()[, "Package"]]
+# if (length(to_install) > 0) install.packages(to_install)
 
 library(tidyverse)
 library(skimr)

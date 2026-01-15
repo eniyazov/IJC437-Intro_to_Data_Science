@@ -3,10 +3,10 @@
 # RQ2: Duration vs Energy analysis
 # ==========================================
 
-# ---- Packages ----
-pkgs <- c("tidyverse", "here")
-to_install <- pkgs[!pkgs %in% installed.packages()[, "Package"]]
-if (length(to_install) > 0) install.packages(to_install)
+# # ---- Packages ----
+# pkgs <- c("tidyverse", "here")
+# to_install <- pkgs[!pkgs %in% installed.packages()[, "Package"]]
+# if (length(to_install) > 0) install.packages(to_install)
 
 library(tidyverse)
 library(here)

@@ -3,6 +3,7 @@
 # Master script: runs the whole pipeline
 # ==========================================
 
+source("code/00_setup_packages.R")
 source("code/01_data_cleaning.R")
 source("code/02_rq1_pca_kmeans.R")
 source("code/03_rq2_duration_energy.R")
