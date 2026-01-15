@@ -41,6 +41,7 @@ data/processed/df_spotify_complete.csv
 ---
 
 ## Project Structure
+```
 IJC437-Intro_to_Data_Science/
 │
 ├── README.md
@@ -57,7 +58,7 @@ IJC437-Intro_to_Data_Science/
 ├── outputs/
 │ ├── figures/ # PNG figures used in the report
 │ └── tables/ # CSV summary tables
-
+```
 ---
 
 ## Methodology Summary
